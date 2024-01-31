@@ -20,7 +20,7 @@
         <h1>Five Day Weather Forecast</h1>
     </header>
 
-    <div class="search_history bg dark min">
+    <div class="search_history">
         <div class="search-items">
             <input type="text" name="city-name" id="city-name">
             <button type="submit" id="submit_btn">Search</button>
@@ -32,43 +32,56 @@
     </div>
 
     <div id="weatherContainer">
-        <div id="iconsContainer">
-            <div class="icons">
-                <p class="weather" id="day1"></p>
-                <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+        <div class="card">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+                </div>
             </div>
             <p class="minValues" id="day1min"> Loading..</p>
-            <p class="maxValues" id="day1max"> Loading..</p>
-
-            <div class="icons">
-                <p class="weather" id="day2"></p>
-                <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+            <p class="humidity" id="day1max"> Loading..</p>
+        </div>
+        <div class="card">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day2"></p>
+                    <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+                </div>
             </div>
             <p class="minValues" id="day2min"> Loading..</p>
-            <p class="maxValues" id="day2max"> Loading..</p>
-
-            <div class="icons">
-                <p class="weather" id="day3"></p>
-                <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
-            </div>
-            <p class="minValues" id="day3min"> Loading..</p>
-            <p class="maxValues" id="day3max"> Loading..</p>
-
-            <div class="icons">
-                <p class="weather" id="day4"></p>
-                <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
-            </div>
-            <p class="minValues" id="day4min"> Loading..</p>
-            <p class="maxValues" id="day4max"> Loading..</p>
+            <p class="humidity" id="day2max"> Loading..</p>
         </div>
-
-        <div class="icons">
-            <p class="weather" id="day5"></p>
-            <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+        <div class="card">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day3"></p>
+                    <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+                </div>
+            </div>
+            <p class="minValues" id="day1min"> Loading..</p>
+            <p class="humidity" id="day1max"> Loading..</p>
         </div>
-        <p class="minValues" id="day5min"> Loading..</p>
-        <p class="maxValues" id="day5max"> Loading..</p>
-
+        <div class="card">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+                </div>
+            </div>
+            <p class="minValues" id="day1min"> Loading..</p>
+            <p class="humidity" id="day1max"> Loading..</p>
+        </div>
+        <div class="card">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="images"> <img src="./assets/icons/dots.jpeg" class="imgClass" alt=""></div>
+                </div>
+            </div>
+            <p class="minValues" id="day1min"> Loading..</p>
+            <p class="humidity" id="day1max"> Loading..</p>
+        </div>
     </div>
 
     <script src="./assets/js/script.js"></script>
